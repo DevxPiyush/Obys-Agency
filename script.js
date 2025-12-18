@@ -34,8 +34,8 @@ function LoadingAnimation(){
 
 tl.from(".line h1", {
     y: 150,
-    stagger: 0.2,
-    duration: 0.6,
+    stagger: 0.1,
+    duration: 0.4,
     delay: 0.1,
 })
 
@@ -64,8 +64,8 @@ tl.to(".line h2", {
 
 tl.to("#loader",{
     opacity: 0,
-    duration: 1,
-    delay: 0.6,
+    duration: 0.4,
+    delay: 1.3,
 });
 
 tl.from("#page1", {
