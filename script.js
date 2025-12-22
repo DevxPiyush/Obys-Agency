@@ -86,7 +86,7 @@ tl.from("#nav", {
 tl.from("#hero1, #hero2, #hero3, #hero4, #page2", {
     y: 150,
     opacity: 0,
-    stagger: 0.12,
+    stagger: 0.2,
     duration: 1,
     ease: "power4.out"
 },"-=1",);
